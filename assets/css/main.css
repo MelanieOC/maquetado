@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
+section{
+	padding: 50px;
+}
 header{
 	height: 700px;
 	background-image: url(../img/header-bg.jpg);
@@ -8,16 +11,31 @@ header{
 	color: white;
 }
 
+h1, h2, h3, h4{
+	font-weight: bolder;
+}
+
 .navbar-brand {
     color: #F6C90E;
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
 }
 
+.negro{
+	background-color: black;
+	color: white;
+}
 .navbar-nav>.active{
 	background-color: #F6C90E;
 }
 
+.navbar-nav a{
+	color: white;
+}
+.naranja{
+	background-color: #F6C90E;
+	color: white;
+}
 .caption{
 	max-width: 400px;
     margin: 0 auto;
