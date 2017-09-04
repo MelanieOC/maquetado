@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+header{
+	height: 700px;
+	background-image: url(../img/header-bg.jpg);
+	background-size: cover;
+	padding-top: 300px;
+	color: white;
+}
+
+.navbar-brand {
+    color: #F6C90E;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+.navbar-nav>.active{
+	background-color: #F6C90E;
+}
+
+.caption{
+	max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#contact{
+	background-color: black;
+	background-image: url(../img/map-image.png);
+	background-size: cover;
+	color: white;
+}
+
+#portfolio, #team>div:first-child{
+	background-color: #eae8e8;
+}
+
+.social a{
+	font-size: 20px;
+    line-height: 35px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #222;
+}
