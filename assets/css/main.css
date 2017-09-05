@@ -69,8 +69,28 @@ header h1{
 		padding: 30px;
 		font-size: 120%;
 	}
+
+	.derecha{
+		right: 75%;
+	}
+
+	.izquierda{
+		left: 25%;
+	}
 }
 
+@media (max-width: 767px) {
+	#about .redondo{
+		width: 90px;
+		height: 90px;
+		padding: 10px;
+		font-size: 90%;
+	}
+
+	.izquierda{
+		left: 16.666667%;
+	}
+}
 .negro{
 	background-color: black;
 	color: white;
