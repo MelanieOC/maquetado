@@ -157,3 +157,9 @@ footer{
 .copy a{
 	color:  #F6C90E;
 }
+
+.error{
+	text-align: left;
+	color: red;
+	display: none;
+}
